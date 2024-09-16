@@ -1,0 +1,60 @@
+
+        body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-image: url(/storage/emulated/0/f2.jpg); /*ruta de imagen jpg*/
+        background-size: cover;
+        background-position: center;
+        font-family: Arial, sans-serif;
+        }
+        #container {
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+            color: white; /*cambia de color a blanco*/
+            margin-bottom: 1rem;
+        }
+        h2 {
+            font-size: 3rem;
+            color: white; /*cambia de color a blanco*/
+            margin-bottom: 1rem;
+        }
+        #buttons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #fff;
+            background-color: rgb(6, 122, 85);
+            border:  none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover{
+            background-color: rgb(15, 168, 117);
+        }
+        #btnNo {
+            background-color: red;
+        }
+        #btnNo:hover{
+            background-color: red;
+        }
+        img{
+            margin-top: 30px;
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        }
+
